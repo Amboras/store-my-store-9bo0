@@ -40,18 +40,22 @@ export default async function ShippingPage() {
                 <h2 className="text-h3 font-heading font-semibold">Shipping</h2>
               </div>
               <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
-                <p>We offer free standard shipping on all orders over $75. Orders are processed within 1-2 business days.</p>
+                <p>Many of our items are shipped directly from our overseas fulfillment partners. Orders are typically processed within 2–4 business days before dispatch.</p>
 
                 <div className="border rounded-sm overflow-hidden">
                   <table className="w-full text-sm">
                     <thead><tr className="bg-muted/50"><th className="text-left p-3 font-medium">Method</th><th className="text-left p-3 font-medium">Delivery Time</th><th className="text-left p-3 font-medium">Cost</th></tr></thead>
                     <tbody>
-                      <tr className="border-t"><td className="p-3">Standard</td><td className="p-3">5-7 business days</td><td className="p-3">Free over $75 / $5.99</td></tr>
-                      <tr className="border-t"><td className="p-3">Express</td><td className="p-3">2-3 business days</td><td className="p-3">$12.00</td></tr>
-                      <tr className="border-t"><td className="p-3">Overnight</td><td className="p-3">1 business day</td><td className="p-3">$25.00</td></tr>
-                      <tr className="border-t"><td className="p-3">International</td><td className="p-3">10-14 business days</td><td className="p-3">Calculated at checkout</td></tr>
+                      <tr className="border-t"><td className="p-3">Standard (Overseas)</td><td className="p-3">7–20 business days</td><td className="p-3">Free over $75 / $5.99</td></tr>
+                      <tr className="border-t"><td className="p-3">Express (Overseas)</td><td className="p-3">5–10 business days</td><td className="p-3">$14.99</td></tr>
+                      <tr className="border-t"><td className="p-3">Domestic Stock</td><td className="p-3">3–5 business days</td><td className="p-3">$8.99</td></tr>
                     </tbody>
                   </table>
+                </div>
+
+                <div className="border-l-2 border-accent bg-muted/30 p-4 rounded-sm">
+                  <p className="font-medium text-foreground mb-1">📦 A note on delivery times</p>
+                  <p>A portion of our catalog ships from our overseas fulfillment network, which keeps prices competitive but means delivery can take longer than domestic-stock orders. We&apos;ll always show estimated delivery at checkout, and every shipment comes with full tracking.</p>
                 </div>
 
                 <p>All orders include tracking information sent to your email once shipped.</p>
